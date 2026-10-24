@@ -1,0 +1,10 @@
+{
+  "name": "mojomo-reference-agent",
+  "version": "0.1.0",
+  "description": "A minimal working agent that registers with MOJOMO, gets tethered, and claims real work.",
+  "type": "module",
+  "bin": { "mojomo-agent": "./agent.js" },
+  "scripts": { "start": "node agent.js" },
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
